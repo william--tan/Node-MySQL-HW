@@ -12,6 +12,18 @@ Structure of the Database (Entitites/Tables):
 * ORDERS (Order ID, Customer ID, Item ID, Quantity)
 * DEPARTMENTS (Department ID, Department Name, Overhead Costs)
 
+Note on how to initialize the database:
+* to create the database, uncomment line 17 in bamazon.js (and add comma to the end of the line 16)
+```
+	//database: 'bamazon' <--- LINE 17
+```
+* uncomment line 24 and line 50
+```
+//useDB().then(() => {   <---- THIS IS LINE 24
+//}); <---- LINE 50
+```
+* If you don't want to create the database every time you call bamazon.js, just comment lines 17, 24, 50 (and remove last comma in line 16).
+
 
 ### Here's some GUI screenshots from the Client View :+1:
 
